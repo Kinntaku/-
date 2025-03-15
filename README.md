@@ -9,7 +9,7 @@
 - MAX4466 ADC模块(不推荐，采样区间较窄，灵敏度不高)
 - 电位器
 - DCDC(5V)电源：[来自嘉立创](https://oshwhub.com/264xry/mp1584en)
-- ws2012
+- ws2812
   ![image](https://github.com/user-attachments/assets/fca507be-848b-4bdd-84ab-222da97098ea)
 
 ## 功能列表
