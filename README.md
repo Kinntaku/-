@@ -2,6 +2,7 @@
 ## 构建环境
 本项目使用cubemx生成hal库项目，使用openocd烧录和仿真
 ## 硬件内容
+- BT24蓝牙串口转换器
 - STM32F103ZET6中控
 - 0.96'OLED(1306)：[驱动来源Keysking](https://github.com/BaudDance/LEDDrive/tree/main/library/TI-launchpad-M0G3507)
 - AHT20温度传感器：[驱动来源Keysking](https://github.com/BaudDance/LEDDrive/tree/main/library/stm32_hal_aht20)
@@ -21,7 +22,7 @@
 - 松开点灯
 - 轻触点灯
 - 可调亮度
-## 远程控制部分
+## 远程控制部分（蓝牙串口发送波特率9600）
 - 0 255 255 255 ：指定颜色点灯，八位数据，GRB排列
 - 4 2000 2000 ：闪烁灯，后面两位数据分别为红色和蓝色灯闪烁周期(ms)
 - 5 2000 ：呼吸灯，后位数据为周期(ms)
